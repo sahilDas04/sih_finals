@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['counter', 'people']
+
+roboflow:
+  workspace: kumar-harsh-b4v4v
+  project: sih-queue-detection
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kumar-harsh-b4v4v/sih-queue-detection/dataset/3
